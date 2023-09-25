@@ -88,7 +88,6 @@ For Outcomes
 
 */
 
--- Write your sql statements here.
 Create table Classes
 (
     class varchar(20),
@@ -236,8 +235,6 @@ SET displacement = displacement/1.1;
 -- Add the following constraints using views with check option.
 
 -- No ship can be in battle before it is launched.
-
--- Write your sql statement here.
 create view OutcomesView as
 select ship, battle, result
 from Outcomes O
